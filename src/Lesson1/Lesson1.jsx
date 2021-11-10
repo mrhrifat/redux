@@ -125,35 +125,35 @@ class Lesson1 extends Component {
         // store.dispatch({ type: 'A' })
         // store.dispatch({ type: 'Something' })
 
-        const reducer = (state = {}, action) => {
-            if (action.type === 'A') {
-                return {
-                    ...state,
-                    A: 'I am A'
-                }
-            }
-            if(action.type==='B'){
-                return {
-                    ...state,
-                    B:'I am B'
-                }
-            }
-            return state
-        }
+        // const reducer = (state = {}, action) => {
+        //     if (action.type === 'A') {
+        //         return {
+        //             ...state,
+        //             A: 'I am A'
+        //         }
+        //     }
+        //     if(action.type==='B'){
+        //         return {
+        //             ...state,
+        //             B:'I am B'
+        //         }
+        //     }
+        //     return state
+        // }
 
-        const store = createStore(reducer)
+        // const store = createStore(reducer)
 
-        store.subscribe(() => {
-            console.log(store.getState())
-        })
+        // store.subscribe(() => {
+        //     console.log(store.getState())
+        // })
 
-        store.dispatch({ type: 'Something' })
-        store.dispatch({ type: 'Something' })
-        store.dispatch({ type: 'A' })
-        store.dispatch({ type: 'B' })
-        store.dispatch({ type: 'Someting' })
-        store.dispatch({ type: 'A' })
-        store.dispatch({ type: 'Something' })
+        // store.dispatch({ type: 'Something' })
+        // store.dispatch({ type: 'Something' })
+        // store.dispatch({ type: 'A' })
+        // store.dispatch({ type: 'B' })
+        // store.dispatch({ type: 'Someting' })
+        // store.dispatch({ type: 'A' })
+        // store.dispatch({ type: 'Something' })
 
 
         return (

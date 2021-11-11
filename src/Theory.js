@@ -82,4 +82,22 @@ React Redux
 05) Provider - Component to pass store to React
 
 
+
+React React-Redux Redux
+
+01) React
+    01) Parent Component for Provider
+    02) Child Component for JSX & Data & Action
+
+02) React-Redux 
+    01) Provider
+    02) Connect
+
+03) Redux 
+    01) Store
+    02) Reducer
+    03) Action
+
+
+
 */

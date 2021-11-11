@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { createStore } from 'redux'
+// import { createStore } from 'redux'
 
 class Lesson1 extends Component {
     render() {

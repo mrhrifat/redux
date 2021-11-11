@@ -6,8 +6,8 @@ class Controller2 extends Component {
         const { add, sub } = this.props
         return (
             <div>
-                <button className="btn btn-sm mx-1" onClick={() => sub()}>Decrement</button>
-                <button className="btn btn-sm mx-1" onClick={() => add()}>Increment</button>
+                <button className="btn btn-danger btn-sm mx-1" onClick={() => sub()}>Decrement</button>
+                <button className="btn btn-success btn-sm mx-1" onClick={() => add()}>Increment</button>
             </div>
         )
     }

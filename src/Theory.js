@@ -83,7 +83,7 @@ React Redux
 
 
 
-React React-Redux Redux
+**React React-Redux Redux
 
 01) React
     01) Parent Component for Provider
